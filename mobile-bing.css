@@ -1,0 +1,283 @@
+@media(orientation:portrait)
+{
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        width: 100vw;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        overflow-x: hidden;
+        margin: 0;
+        padding: 0;
+        color: #71777d;
+    }
+    #header{
+        width: 100vw;
+        height: 20vh;
+        background-color: rgb(211, 211, 211);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        overflow-x: hidden;
+        
+    }
+    .logo{
+        width: 3.5vh;
+        height: 3.5vh;
+        position: relative;
+        top: -7vh;
+        left: 14vw;
+    }
+    #header p{
+        color: black;
+        font-size: 2vh ;
+        /* font-family: "Segoe UI",Segoe,Tahoma,Arial,Verdana,sans-serif; */
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        position: relative;
+       left: 15vw;
+        top: -7vh;
+    }
+    #searchbar{
+        width:95vw;
+        height: 5vh;
+        display: flex;
+        font-size:16px;
+        outline: none;
+        border-radius:10px;
+        border:1px solid #dcdcdc;
+        text-align: center;
+        position: absolute;
+        top: 7vh;
+      }
+      #searchbar:hover{
+        box-shadow: 1px 1px 8px 1px #dcdcdc;
+      }
+      .searchbar-icon{
+        width: 3.5vh;
+        height: 3.5vh;
+        position: relative;
+        left: 27vw;
+        top: -0.5vh;
+        margin-right: 3vw;
+      }
+      .voice-scan{
+        display: none;
+      }
+      #list-menu-li{
+        display: none;
+      }
+     #list-menu{
+        width: 100vw;
+        height: 5vh;
+       /*  background-color: rgb(153, 146, 160); */
+        position: absolute;
+        top: 15vh; 
+     }
+      #list-menu p{
+        display: inline-block;
+        top: 0.5vh; 
+        left: 0;
+        margin-left: 6vw;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      #list-menu p:hover{
+        text-decoration: underline;
+    /* box-shadow: 1px 1px 8px 1px #c2bebe; */
+      }
+      #header button{
+        display: none;
+    }
+    #menu-num{
+        display: none;
+    }
+    #right-img1{
+        display: none;
+    }
+    #right-img2 img{
+         width: 12vw;
+        height: 6vh;
+        position: relative;
+        left: 3vw;
+        top: 0.5vh;
+    }
+    #promoted{
+        width: 90vw;
+        height: 15vh;
+        display: flex;
+       flex-direction: column;
+        align-self: center;
+      background-color: #dcdcdc;
+       border: 0.2vw solid grey;
+       border-radius:10px ;
+       position: relative;
+       top: 1vh;
+    }
+    #promoted p{
+        font-size: 4vw;
+        font-family: Arial, Helvetica, sans-serif;
+        position: relative;
+        top: 2vh;
+        left: 3vw;
+        display: flex;
+        
+    }
+    #searchbar-2{
+        width:80vw;
+        height: 5vh;
+        display: flex;
+        font-size:16px;
+        outline: none;
+        border-radius:10px;
+        border:1px solid #dcdcdc;
+        align-self: center;
+        position: relative;
+        top: 3vh;
+    }
+    #searchbar-2:hover{
+        box-shadow: 1px 1px 8px 1px #dcdcdc;
+      }
+    .searchbar-icon-2{
+        width: 3.5vh;
+        height: 3.5vh;
+        display: inline;
+        position: relative;
+        left: 63vw;
+       top: -1vh;
+      }
+      .searchbar-icon-3{
+        width: 3.5vh;
+        height: 3.5vh;
+        display: inline;
+        position: relative;
+        left: 73vw;
+        top: -4.5vh;
+      }
+
+    #web-site{
+       width: 90vw;
+       height: auto;
+       position: relative;
+       display: flex;
+       flex-direction: column;
+       top: 2vh;
+       align-self: center;
+       gap: 0.5vh;
+     /*   border: 0.2vw solid grey;
+       border-radius:10px ; */
+    }
+    #web-site div{
+        width: 90vw;
+        height: 20vh;
+       /*  background-color: rgb(224, 165, 92); */
+       /* display: flex;
+       flex-direction: column;
+       justify-content: center; */
+        border: 0.2vw solid grey;
+        border-radius:10px ;
+        box-shadow: 1px 1px 8px 1px #ccc6c6;
+        overflow: hidden;
+    }
+    hr{
+        display: none;
+    }
+    .google-logo{
+        width: 3vh;
+        height: 3vh;
+        position: relative;
+        left: 2vw;
+        top: 1.1vh;
+    }
+    .site-headline{
+        color: black;
+        font-size: 3.8vw;
+        position: relative;
+        left: 9vw;
+        bottom: 2.7vh;
+    }
+    .site-sub-head{
+        color: dimgray;
+        font-size: 3vw;
+        position: relative;
+        left: 9.5vw;
+        bottom: 3.3vh;
+    }
+     .site-link{
+        color:#600090;
+        font-size: 4vw;
+        font-weight: 500;
+        font-family: sans-serif;
+        text-decoration: none;
+        position: absolute;
+        left: 2.1vw;
+       margin-top: 1vh;
+    } 
+    .site-link:hover{
+        text-decoration: underline;
+    }
+    .site-decription{
+        font-size: 0.9rem;
+        font-weight: 500;
+        position: relative;
+        top: 1vh;
+        left: 2.5vw;
+       padding-right: 4%;
+       padding-bottom: 4%;
+       padding-left: 1%;
+    }
+    .img-gif{
+        width: 14vw;
+        height: 14vw;
+        position: absolute;
+        right: 2vw;
+        top: 21vh;
+    }
+    #next-page-scroll-list{
+        display: none;
+    }
+    #next-page-scroll li{
+        display: inline-block;
+        list-style: none;
+        margin-left: 2.5vw;
+        position: relative;
+        top: 3.5vh;
+        left: 25vw;
+    
+    }
+    #next-page-scroll li a{
+        text-decoration: none;
+        color: grey;
+        font-size: 1.5rem;
+    }
+    #next-page-scroll li a:hover{
+        text-decoration: underline;
+        color: black;
+    }
+    #right-side{
+        display: none;
+    }
+    #footer{
+        width: 100vw;
+        height: 5vh;
+      background-color: rgb(153, 146, 160);
+         position: relative;
+         top: 4vh;
+     }
+     #footer p{
+        display: inline-block;
+        left: 0;
+        margin-left: 8vw;
+        position: relative;
+        top: 1.5vh;
+      }
+      #footer p:hover{
+        text-decoration: underline;
+    /* box-shadow: 1px 1px 8px 1px #c2bebe; */
+      }
+    
+}

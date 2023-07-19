@@ -1,0 +1,410 @@
+@media(orientation:landscape)
+{
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+#header{
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+.logo{
+    width: 1.5vw;
+    height: 3vh;
+    position: relative;
+    justify-content: center;
+    top: 6.5vh;
+    left: 2.5vw;
+}
+#header p{
+    color: black;
+    font-size: 2ch;
+    position: relative;
+    left: 4.5vw;
+    top: 3vh;
+    font-family: "Segoe UI",Segoe,Tahoma,Arial,Verdana,sans-serif;
+    font-weight: 600;
+}
+#searchbar{
+    width:50vw;
+   height: 7vh;
+    font-size:16px;
+    outline: none;
+    border-radius:30px;
+    border:1px solid #dcdcdc;
+    text-align: center;
+    align-self: center;
+    margin: 0;
+   margin-right: 25vw;
+
+  }
+  #searchbar:hover{
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+  }
+  .searchbar-icon{
+    width: 1.3vw;
+    height: 1.3vw;
+    position: relative;
+    left: 58vw;
+    bottom: 3vh;
+  }
+  .voice-scan{
+    width: 1.2vw;
+    height: 1.2vw;
+    position: relative;
+    bottom: 5.5vh;
+    left: 60vw;
+  }
+  #list-menu-li li{
+    display: inline-block;
+    list-style: none;
+    position: relative;
+    left: 13vw;
+    bottom: 1.5vh;
+    margin-left: 2.5vw;
+
+}
+#list-menu-li li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5ch;
+    /* font-family: "Segoe UI",Segoe,Tahoma,Arial,Verdana,sans-serif; */
+}
+#list-menu{
+    display: none;
+}
+#list-menu-li li a:hover{
+    text-decoration: underline;
+    box-shadow: 1px 1px 8px 1px #0a0a0a;
+}
+#header button{
+    background-color: #dcdcdc;
+    width: 5vw;
+    height: 5vh;
+    position: relative;
+    left: 80vw;
+    bottom: 13vh;
+}
+#menu-num a{
+    color: black;
+    font-size: 2ch;
+    text-decoration: none;
+    position: relative;
+    left: 83vw;
+    bottom: 19vh;
+}
+#right-img1 img{
+    width: 3vw;
+    height: 5vh;
+    position: relative;
+    left: 85vw;
+    bottom: 23vh;
+}
+#right-img2 img{
+    width: 3vw;
+    height: 5vh;
+    position: relative;
+    left: 90vw;
+    bottom: 28vh;
+}
+#promoted{
+    display: none;
+}
+#web-site{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 50vw;
+    height: auto;
+   /*  background-color: pink; */
+    left: 13vw;
+    top: 7vh;
+    border: 1px solid rgb(151, 144, 144);
+    border-radius:10px;
+}
+ #web-site div{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3vh;
+    width: 50vw;
+    height: 20vh;
+    padding-right: 2%;
+
+}
+.google-logo{
+    width: 4vh;
+    height: 4vh;
+    position: relative;
+    left: 2vw;
+    top: 1.5vh;
+}
+.site-headline{
+    color: black;
+    font-size: 1rem;
+    position: relative;
+    left: 4.5vw;
+    bottom: 3vh;
+}
+.site-sub-head{
+    color: dimgray;
+    position: relative;
+    left: 4.5vw;
+    bottom: 4vh;
+}
+.site-link{
+    color:#600090;
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: sans-serif;
+    text-decoration: none;
+    position: absolute;
+    left: 2vw;
+    padding-top: 8vh;
+}
+.site-link:hover{
+    text-decoration: underline;
+}
+.site-decription{
+    font-size: 0.9rem;
+    font-weight: 500;
+    position: relative;
+    top: 3vh;
+    left: 2.5vw;
+}
+.img-gif{
+    width: 10vw;
+    height: 10vh;
+    position: absolute;
+    right: 2vw;
+    margin-top: 1vh;
+}
+next-page-scroll-list li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 2.5vw;
+    position: relative;
+    top: 2vh;
+    left: 3vw;
+
+}
+next-page-scroll-list li a{
+    text-decoration: none;
+    color: grey;
+    font-size: 1.5rem;
+}
+next-page-scroll-list li a:hover{
+    text-decoration: underline;
+    color: black;
+}
+#footer{
+    display: none;
+}
+#right-side{
+    width: 30vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 2vw;
+    top: 25.5vh;
+    border: 1px solid gray;
+}
+#google-add-logo{
+    width: 30vw;
+    height: 20vh;
+    background-color: rgb(218, 134, 24);
+    display: flex;
+    flex-direction: column;
+}
+.google-add-letter{
+    text-decoration: none;
+    font-weight: 800;
+    color: white;
+    font-size: 2.5rem;
+    padding-left: 2.5vw;
+    margin-top: 3vh;
+}
+.american-add-letter{
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 0.7rem;
+    color: white;
+    padding-left: 2vw;
+}
+#google-add-logo img{
+    height: 10vw;
+    width: 10vw;
+    border-radius: 50%;
+   position: absolute;
+   right: 0vw;
+}
+#google-add-logo img:hover{
+    scale: 1.2;
+}
+#google-wiki{
+    width: 30vw;
+    height: 18vh;
+    padding: 1vw;
+}
+#google-wiki a{
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: black;
+}
+#google-wiki a:hover{
+    color: #600090;
+}
+#social-media{
+    width: 30vw;
+    height: 10vh;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5vw;
+   
+}
+#social-media img{
+    width: 3vw;
+    height: 6vh;
+    position: relative;
+
+}
+#sign-in{
+    width: 30vw;
+    height: 10vh;
+}
+.sign-wikipe{
+    width: 10vw;
+    height: 5vh;
+    border: 1px solid saddlebrown;
+    border-radius: 30px;
+    text-align: center;
+    position: relative;
+    left: 3vw;
+    top: 2vh;
+}
+.sign-wikipe a{
+    color:  rgb(218, 134, 24);
+    text-decoration: none;
+    font-size: 0.8rem;
+    position: relative;
+    top: 0.5vh;
+}
+.sign-wikipe a:hover{
+    text-decoration: underline;
+    color: #600090;
+}
+.sign-in{
+    width: 10vw;
+    height: 5vh;
+    border: 1px solid  rgb(218, 134, 24);
+    border-radius: 30px;
+    text-align: center;
+    position: relative;
+    left: 17vw;
+    bottom: 2.8vh;
+}
+.sign-in a{
+    color:  rgb(218, 134, 24);
+    text-decoration: none;
+    font-size: 0.8rem;
+    position: relative;
+    top: 0.5vh;
+}
+.sign-in a:hover{
+    text-decoration: underline;
+    color: #600090;
+}
+#google-earth{
+    width: 30vw;
+    height: 10vh;
+    padding: 1%;
+}
+#google-earth img{
+    width: 2.5vw;
+    height: 5vh;
+    position: relative;
+    left: 1.5vw;
+    top: 0.5vh;
+}
+#google-earth a{
+    display: block;
+    text-decoration: none;
+    position: relative;
+    bottom: 4.7vh;
+    left: 4vw;
+    font-size: 0.7rem;
+    color: black;
+}
+#google-history{
+    width: 30vw;
+    height: 28vh;
+    padding: 2.5%;
+}
+#google-history p a{
+    text-decoration: none;
+    color: rgb(218, 134, 24) ;
+}
+#google-history p a:hover{
+    text-decoration: underline;
+    color: #600090;
+}
+#google-tech{
+    width: 30vw;
+    height: 15vh;
+    padding: 2.5%;
+}
+#google-tech a{
+    text-decoration: none;
+    color: black;
+}
+#google-tech a:hover{
+    text-decoration: underline;
+    color: #600090;
+}
+#google-spell{
+    width: 30vw;
+    height: 15vh;
+    padding: 3%;
+}
+#google-spell a{
+    text-decoration: none;
+    color: black;
+}
+#google-spell a:hover{
+    text-decoration: underline;
+    color: #600090;
+}
+#footer{
+    width: 100vw;
+    height: 8vh;
+    display: inline-flex;
+    position: relative;
+    bottom:110vh ;
+}
+#footer ul li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 2.5vw;
+    position: relative;
+     top: 2vh;
+    left: 5vw; 
+}
+#footer ul li a{
+    text-decoration: none;
+    color: black;
+}
+#footer ul li a:hover{
+    text-decoration: underline;
+}
+}
