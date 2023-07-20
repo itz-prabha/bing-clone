@@ -10,30 +10,31 @@ body{
     height: auto;
     display: flex;
     flex-direction: column;
+    overflow-x: hidden;
 }
 #header{
     width: 100vw;
-    height: 20vh;
+    height: 40vh;
     display: flex;
     flex-direction: column;
-    
 }
 .logo{
     width: 1.5vw;
     height: 3vh;
     position: relative;
-    justify-content: center;
     top: 6.5vh;
     left: 2.5vw;
 }
 #header p{
     color: black;
-    font-size: 2ch;
+    font-size: 2.8vh;
+    font-family: "Segoe UI",Segoe,Tahoma,Arial,Verdana,sans-serif;
+    font-weight: 600;
+    width: 9vw;
     position: relative;
     left: 4.5vw;
     top: 3vh;
-    font-family: "Segoe UI",Segoe,Tahoma,Arial,Verdana,sans-serif;
-    font-weight: 600;
+    margin-right: 0 !important;
 }
 #searchbar{
     width:50vw;
@@ -45,40 +46,48 @@ body{
     text-align: center;
     align-self: center;
     margin: 0;
-   margin-right: 25vw;
-
+    position: relative;
+    right: 11vw;
+    bottom: 2vh;
   }
   #searchbar:hover{
     box-shadow: 1px 1px 8px 1px #dcdcdc;
   }
+  #searchicon-symbol{
+    width: 1.5vw;
+    height: 1.5vw;
+    position: absolute;
+    top: 7vh;
+    left: 15vw;
+  }
+  #searchbar-icon-container{
+    width: 5vw;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1vw;
+    position: absolute;
+    top: 5vh;
+    left: 58vw;
+  }
   .searchbar-icon{
     width: 1.3vw;
-    height: 1.3vw;
-    position: relative;
-    left: 58vw;
-    bottom: 3vh;
+    height: 1.3vw; 
   }
-  .voice-scan{
-    width: 1.2vw;
-    height: 1.2vw;
+  #list-menu-li{
+    width: 40vw;
+    display: inline-flex;
+    column-gap: 3vw;
     position: relative;
-    bottom: 5.5vh;
-    left: 60vw;
-  }
-  #list-menu-li li{
-    display: inline-block;
+    left: 18vw; 
     list-style: none;
-    position: relative;
-    left: 13vw;
-    bottom: 1.5vh;
-    margin-left: 2.5vw;
-
-}
+  }
 #list-menu-li li a{
     text-decoration: none;
     color: black;
-    font-size: 1.5ch;
-    /* font-family: "Segoe UI",Segoe,Tahoma,Arial,Verdana,sans-serif; */
+    font-size: 2vh;
+    font-family: "Segoe UI",Segoe,Tahoma,Arial,Verdana,sans-serif;
 }
 #list-menu{
     display: none;
@@ -87,35 +96,31 @@ body{
     text-decoration: underline;
     box-shadow: 1px 1px 8px 1px #0a0a0a;
 }
+#top-right{
+    width: 15vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1vw;
+    position: absolute;
+    right: 4vw;
+    top: 4vh;
+}
 #header button{
     background-color: #dcdcdc;
+    font-size: 2.5vh;
     width: 5vw;
     height: 5vh;
-    position: relative;
-    left: 80vw;
-    bottom: 13vh;
 }
-#menu-num a{
+#menu-num{
     color: black;
-    font-size: 2ch;
+    font-size: 3vh;
     text-decoration: none;
-    position: relative;
-    left: 83vw;
-    bottom: 19vh;
 }
-#right-img1 img{
+.right-img1{
     width: 3vw;
     height: 5vh;
-    position: relative;
-    left: 85vw;
-    bottom: 23vh;
-}
-#right-img2 img{
-    width: 3vw;
-    height: 5vh;
-    position: relative;
-    left: 90vw;
-    bottom: 28vh;
 }
 #promoted{
     display: none;
@@ -126,88 +131,84 @@ body{
     position: relative;
     width: 50vw;
     height: auto;
-   /*  background-color: pink; */
-    left: 13vw;
-    top: 7vh;
-    border: 1px solid rgb(151, 144, 144);
-    border-radius:10px;
+    left: 15vw;
+    bottom: 14vh;
 }
  #web-site div{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     margin-bottom: 3vh;
-    width: 50vw;
+    width: 30vw;
     height: 20vh;
-    padding-right: 2%;
-
 }
 .google-logo{
     width: 4vh;
     height: 4vh;
-    position: relative;
-    left: 2vw;
-    top: 1.5vh;
 }
 .site-headline{
     color: black;
-    font-size: 1rem;
+    font-size: 2vh;
     position: relative;
-    left: 4.5vw;
-    bottom: 3vh;
+    left: 2.5vw;
+    bottom: 4.5vh;
 }
 .site-sub-head{
     color: dimgray;
     position: relative;
-    left: 4.5vw;
-    bottom: 4vh;
+    left: 2.5vw;
+    bottom: 5vh;
 }
 .site-link{
     color:#600090;
-    font-size: 1.2rem;
+    font-size: 3vh;
     font-weight: 500;
     font-family: sans-serif;
     text-decoration: none;
     position: absolute;
-    left: 2vw;
-    padding-top: 8vh;
+    margin-top: 1vh;
 }
 .site-link:hover{
     text-decoration: underline;
 }
 .site-decription{
-    font-size: 0.9rem;
+    width: 35vw;
+    font-size: 2.2vh;
     font-weight: 500;
     position: relative;
-    top: 3vh;
-    left: 2.5vw;
+    margin: 0;
+    top: 2vh;
 }
 .img-gif{
     width: 10vw;
     height: 10vh;
     position: absolute;
-    right: 2vw;
-    margin-top: 1vh;
+    right: 15vw;
+    margin-bottom: 7.5vh;
 }
-next-page-scroll-list li{
+#next-page-scroll-list{
+    width: 30vw;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    position: relative;
+    left: 12vw;
+    bottom: 10vh;
+}
+ #next-page-scroll-list li{
     display: inline-block;
     list-style: none;
-    margin-left: 2.5vw;
-    position: relative;
-    top: 2vh;
-    left: 3vw;
-
-}
-next-page-scroll-list li a{
+} 
+ #next-page-scroll-list li a{
     text-decoration: none;
     color: grey;
-    font-size: 1.5rem;
-}
-next-page-scroll-list li a:hover{
+    font-size: 4vh;
+    padding-left: 3vw;
+} 
+#next-page-scroll-list li a:hover{
     text-decoration: underline;
     color: black;
-}
-#footer{
-    display: none;
 }
 #right-side{
     width: 30vw;
@@ -230,14 +231,14 @@ next-page-scroll-list li a:hover{
     text-decoration: none;
     font-weight: 800;
     color: white;
-    font-size: 2.5rem;
+    font-size: 4.5vh;
     padding-left: 2.5vw;
     margin-top: 3vh;
 }
 .american-add-letter{
     text-decoration: none;
     font-weight: 800;
-    font-size: 0.7rem;
+    font-size: 2vh;
     color: white;
     padding-left: 2vw;
 }
@@ -245,8 +246,8 @@ next-page-scroll-list li a:hover{
     height: 10vw;
     width: 10vw;
     border-radius: 50%;
-   position: absolute;
-   right: 0vw;
+    position: absolute;
+    right: 0vw;
 }
 #google-add-logo img:hover{
     scale: 1.2;
@@ -254,11 +255,12 @@ next-page-scroll-list li a:hover{
 #google-wiki{
     width: 30vw;
     height: 18vh;
+    font-size: 2.5vh;
     padding: 1vw;
 }
 #google-wiki a{
     text-decoration: none;
-    font-size: 0.9rem;
+    font-size: 2.5vh;
     color: black;
 }
 #google-wiki a:hover{
@@ -271,13 +273,11 @@ next-page-scroll-list li a:hover{
     justify-content: center;
     align-items: center;
     gap: 2.5vw;
-   
 }
 #social-media img{
     width: 3vw;
     height: 6vh;
     position: relative;
-
 }
 #sign-in{
     width: 30vw;
@@ -296,13 +296,14 @@ next-page-scroll-list li a:hover{
 .sign-wikipe a{
     color:  rgb(218, 134, 24);
     text-decoration: none;
-    font-size: 0.8rem;
+    font-size: 3vh;
     position: relative;
     top: 0.5vh;
 }
 .sign-wikipe a:hover{
     text-decoration: underline;
     color: #600090;
+   
 }
 .sign-in{
     width: 10vw;
@@ -317,7 +318,7 @@ next-page-scroll-list li a:hover{
 .sign-in a{
     color:  rgb(218, 134, 24);
     text-decoration: none;
-    font-size: 0.8rem;
+    font-size: 3vh;
     position: relative;
     top: 0.5vh;
 }
@@ -328,7 +329,10 @@ next-page-scroll-list li a:hover{
 #google-earth{
     width: 30vw;
     height: 10vh;
-    padding: 1%;
+}
+#google-earth p{
+    font-size: 3vh;
+    margin-left: 1vw;
 }
 #google-earth img{
     width: 2.5vw;
@@ -341,14 +345,15 @@ next-page-scroll-list li a:hover{
     display: block;
     text-decoration: none;
     position: relative;
-    bottom: 4.7vh;
+    bottom: 4.9vh;
     left: 4vw;
-    font-size: 0.7rem;
+    font-size: 2vh;
     color: black;
 }
 #google-history{
     width: 30vw;
     height: 28vh;
+    font-size: 2.5vh;
     padding: 2.5%;
 }
 #google-history p a{
@@ -362,6 +367,7 @@ next-page-scroll-list li a:hover{
 #google-tech{
     width: 30vw;
     height: 15vh;
+    font-size: 2.5vh;
     padding: 2.5%;
 }
 #google-tech a{
@@ -375,6 +381,7 @@ next-page-scroll-list li a:hover{
 #google-spell{
     width: 30vw;
     height: 15vh;
+    font-size: 2.5vh;
     padding: 3%;
 }
 #google-spell a{
@@ -388,23 +395,15 @@ next-page-scroll-list li a:hover{
 #footer{
     width: 100vw;
     height: 8vh;
+    background-color: rgb(221, 216, 216);
     display: inline-flex;
+    align-items: center;
+}
+#footer p{
     position: relative;
-    bottom:110vh ;
+    left: 10vw;
+    font-size: 2.5vh;
+    margin-left: 5vw;
 }
-#footer ul li{
-    display: inline-block;
-    list-style: none;
-    margin-left: 2.5vw;
-    position: relative;
-     top: 2vh;
-    left: 5vw; 
-}
-#footer ul li a{
-    text-decoration: none;
-    color: black;
-}
-#footer ul li a:hover{
-    text-decoration: underline;
-}
+
 }

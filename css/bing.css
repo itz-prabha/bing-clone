@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#display{
+    width: 100vw;
+    height: 100vh;
+    background: url(../img/city.jpg) no-repeat center; 
+    background-size: cover; 
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#top-bar{
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+}
+#logo{
+    width: 10vw;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 0.5vw;
+    position: absolute;
+    left: 8vw;
+}
+#logo img{
+    width: 2.2vw;
+    height: 2.2vw;
+}
+#logo p{
+     color: aliceblue;
+    width: 10vw; 
+    font-size: 2ch;
+    font-family: "Segoe UI",Segoe,Tahoma,Arial,Verdana,sans-serif;
+    font-weight: 600;
+}
+#bing-list-menu{
+    width: 40vw;
+    height: 5vh;
+    /* margin: 0 auto; */
+    display: inline-flex;
+    column-gap: 3vw;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 22vw;
+}
+#top-img{
+    width: 3vw;
+    height: 3vw;
+}
+#bing-list-menu p{
+    color: aliceblue;
+    font-size: 3vh;
+    font-family: "Segoe UI",Segoe,Tahoma,Arial,Verdana,sans-serif;
+    padding: 1vw;
+}
+#right-menu{
+    width: 20vw;
+    height: 10vh;
+    display: inline-flex;
+    column-gap: 1vw;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 5vw;
+}
+#right-menu p{
+    font-size: 3vh;
+    color:white;
+}
+.left-icon{
+    width:2vw;
+    height: 4vh;
+}
+#bing-search-bar{
+    width:50vw;
+    height: 10vh;
+    border-radius:30px;
+    border:1px solid #dcdcdc;
+    align-self: center;
+    position: absolute;
+    top: 35vh;
+    left: 25vw;
+}
+#bing-search-bar:hover{
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+  }
+.searchbar{
+    width:50vw;
+    height: 10vh;
+    font-size:16px;
+    outline: none;
+    border-radius:30px;
+    border:1px solid #dcdcdc;
+    text-align: center;
+  }
+  .bing-search-interface{
+    width: 2vw;
+    height: 2vw;
+    position: absolute;
+    top: 38vh;
+    left: 27vw;
+  }
+  #bing-searchbar-icons-contain{
+    width: 10vw;
+    height: 5vh;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1vw;
+    position: absolute;
+    top: 38vh;
+    left: 66vw;
+  }
+  .bing-searchbar-icons{
+    width: 2vw;
+    height: 2vw;
+    
+  }
+  #Languages{
+    width:50vw;
+    height: 7vh;
+    display: inline-flex;
+    column-gap: 2vw;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 45vh;
+    left: 25vw;
+  }
+  #Languages a{
+    color: white;
+    text-decoration: none;
+  }
+  /* tamil-language */
+  #bing-list-menu-tamil{
+    width: 50vw;
+    height: 5vh;
+    display: inline-flex;
+    column-gap: 3vw;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 20vw;
+  }
+  #bing-list-menu-tamil p{
+    font-size: 2.5vh;
+    color:white;
+  }
