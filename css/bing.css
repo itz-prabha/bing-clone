@@ -164,3 +164,19 @@ body{
     font-size: 2.5vh;
     color:white;
   }
+  /* hindi-language */
+  #bing-list-menu-hindi{
+    width: 50vw;
+    height: 5vh;
+    display: inline-flex;
+    column-gap: 3vw;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 20vw;
+  }
+  #bing-list-menu-hindi p{
+    font-size: 2.5vh;
+    color:white;
+    font-weight: 800;
+  }
